@@ -26,7 +26,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://learning-management-system-o8um.onrender.com",
     credentials: true,
   })
 );
